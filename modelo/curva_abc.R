@@ -19,7 +19,7 @@ con=dbConnect(RPostgres::Postgres(),
               host='localhost',
               port=5432,
               user='postgres',
-              password='$C110400c')
+              password='XXXXX')
 
 query = dbGetQuery(con, "
   SELECT 
